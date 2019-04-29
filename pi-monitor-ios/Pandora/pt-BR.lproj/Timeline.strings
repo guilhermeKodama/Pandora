@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "SPO2 (%)"; ObjectID = "1Dn-Ml-cBq"; */
+"1Dn-Ml-cBq.text" = "SPO2 (%)";
+
+/* Class = "UIBarButtonItem"; title = "Adicionar observação"; ObjectID = "5ws-cW-Zyk"; */
+"5ws-cW-Zyk.title" = "Adicionar observação";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "5xq-BC-vFe"; */
+"5xq-BC-vFe.text" = "00:00";
+
+/* Class = "UILabel"; text = "Obs.: O paciente foi medicado"; ObjectID = "8N3-9Y-h0Q"; */
+"8N3-9Y-h0Q.text" = "Obs: O paciente foi medicado";
+
+/* Class = "UILabel"; text = "00:07"; ObjectID = "AOE-ik-eUC"; */
+"AOE-ik-eUC.text" = "00:07";
+
+/* Class = "UILabel"; text = "Obs.: O paciente foi medicado"; ObjectID = "Gs1-T5-suK"; */
+"Gs1-T5-suK.text" = "Obs: O paciente foi medicado";
+
+/* Class = "UILabel"; text = "98,3% de probabilidade - Intervalo de 1 minutos"; ObjectID = "H3r-un-lw4"; */
+"H3r-un-lw4.text" = "98,3% de probabilidade - Intervalo de 1 minutos";
+
+/* Class = "UILabel"; text = "Fibrilação Ventricular"; ObjectID = "Ia9-2W-3E8"; */
+"Ia9-2W-3E8.text" = "Fibrilação Ventricular";
+
+/* Class = "UILabel"; text = "29/04/2016"; ObjectID = "KOE-8u-Ypu"; */
+"KOE-8u-Ypu.text" = "29/04/2016";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Lpn-2U-dpP"; */
+"Lpn-2U-dpP.text" = "00:00";
+
+/* Class = "UILabel"; text = "Taquicardia"; ObjectID = "PFX-T9-w6C"; */
+"PFX-T9-w6C.text" = "Taquicardia";
+
+/* Class = "UILabel"; text = "38º C"; ObjectID = "Taz-NM-41d"; */
+"Taz-NM-41d.text" = "38 ºC";
+
+/* Class = "UILabel"; text = "Frequência"; ObjectID = "UFV-1j-fbP"; */
+"UFV-1j-fbP.text" = "Frequência";
+
+/* Class = "UILabel"; text = "29/04/2016"; ObjectID = "WtP-kz-Hok"; */
+"WtP-kz-Hok.text" = "29/04/2016";
+
+/* Class = "UILabel"; text = "Obs.: O paciente foi medicado às 00:31 com dipirona intravenosa"; ObjectID = "XEQ-0u-431"; */
+"XEQ-0u-431.text" = "Obs.: O paciente foi medicado às 00:31 com dipirona intravenosa";
+
+/* Class = "UILabel"; text = "98,3% de probabilidade - Intervalo de 1 minutos"; ObjectID = "afh-Nl-a5U"; */
+"afh-Nl-a5U.text" = "98,3% de probabilidade - Intervalo de 1 minutos";
+
+/* Class = "UILabel"; text = "80 bpm"; ObjectID = "cT9-y9-39p"; */
+"cT9-y9-39p.text" = "80 bpm";
+
+/* Class = "UILabel"; text = "98,3% de probabilidade - Intervalo de 7 minutos"; ObjectID = "cXk-43-hPh"; */
+"cXk-43-hPh.text" = "98,3% de probabilidade - Intervalo de 1 minutos";
+
+/* Class = "UILabel"; text = "Temperatura"; ObjectID = "ezp-Ca-E3w"; */
+"ezp-Ca-E3w.text" = "Temperatura";
+
+/* Class = "UILabel"; text = "98%"; ObjectID = "hYv-IK-HkN"; */
+"hYv-IK-HkN.text" = "98%";
+
+/* Class = "UILabel"; text = "Febre 39 ºC "; ObjectID = "idq-39-waM"; */
+"idq-39-waM.text" = "Febre 39 ºC ";
+
+/* Class = "UINavigationItem"; title = "Nome do Paciente"; ObjectID = "ifi-e2-Qlh"; */
+"ifi-e2-Qlh.title" = "Nome do Paciente";
+
+/* Class = "UINavigationItem"; title = "Nome do Paciente"; ObjectID = "jng-AH-v01"; */
+"jng-AH-v01.title" = "Nome do Paciente";
+
+/* Class = "UILabel"; text = "06:00"; ObjectID = "kDf-hZ-KMy"; */
+"kDf-hZ-KMy.text" = "06:00";
+
+/* Class = "UILabel"; text = "00:07"; ObjectID = "rF7-vP-fSn"; */
+"rF7-vP-fSn.text" = "00:07";
+
+/* Class = "UILabel"; text = "01:15"; ObjectID = "tmv-j9-JEf"; */
+"tmv-j9-JEf.text" = "01:15";
+
+/* Class = "UILabel"; text = "06:01"; ObjectID = "u3V-lz-wJY"; */
+"u3V-lz-wJY.text" = "06:01";
+
+/* Class = "UILabel"; text = "02:26"; ObjectID = "vQL-Lu-Pra"; */
+"vQL-Lu-Pra.text" = "02:26";
+
+/* Class = "UILabel"; text = "Fibrilação Ventricular"; ObjectID = "y08-BG-HIB"; */
+"y08-BG-HIB.text" = "Fibrilação Ventricular";
+
+/* Class = "UILabel"; text = "Obs.: O paciente levou um susto"; ObjectID = "yBt-4l-Uzd"; */
+"yBt-4l-Uzd.text" = "Obs: O paciente foi medicado";
+
+/* Class = "UILabel"; text = "Deslize para mudar"; ObjectID = "RNE-m9-nnC"; */
+"RNE-m9-nnC.text" = "Deslize para mudar";

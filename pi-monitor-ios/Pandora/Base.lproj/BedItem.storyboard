@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="BebasNeue.otf">
+            <string>BebasNeue</string>
+        </mutableArray>
+        <mutableArray key="Blogger Sans-Medium.otf">
+            <string>BloggerSans-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Bed Item View Controller-->
+        <scene sceneID="CrI-jS-VTE">
+            <objects>
+                <viewController storyboardIdentifier="BedItemIdentifier" id="Icm-4c-9Md" customClass="BedItemViewController" customModule="Pi_Monitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fTA-LO-xXD"/>
+                        <viewControllerLayoutGuide type="bottom" id="oWq-UD-to4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z21-jr-Aqm">
+                        <rect key="frame" x="0.0" y="0.0" width="325" height="325"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BED" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyf-Ey-UUC">
+                                <rect key="frame" x="121.5" y="44.5" width="81.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7MP-mn-TK7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BloggerSans-Medium" family="Blogger Sans" pointSize="50"/>
+                                <color key="textColor" red="0.031372549020000001" green="0.086274509799999996" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="center" lineBreakMode="wordWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xd5-Vl-4VI">
+                                <rect key="frame" x="103" y="110.5" width="119" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="TVB-Xe-Hrh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasNeue" family="Bebas Neue" pointSize="150"/>
+                                <color key="textColor" red="0.031372549020000001" green="0.086274509799999996" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32156862749999998" green="0.72156862749999995" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wyf-Ey-UUC" firstAttribute="centerX" secondItem="xd5-Vl-4VI" secondAttribute="centerX" id="34K-rJ-r5K"/>
+                            <constraint firstItem="xd5-Vl-4VI" firstAttribute="centerY" secondItem="Z21-jr-Aqm" secondAttribute="centerY" constant="10.5" id="4fV-dU-Oa9"/>
+                            <constraint firstItem="xd5-Vl-4VI" firstAttribute="centerX" secondItem="Z21-jr-Aqm" secondAttribute="centerX" id="bYs-PW-bV3"/>
+                            <constraint firstItem="xd5-Vl-4VI" firstAttribute="top" secondItem="wyf-Ey-UUC" secondAttribute="bottom" constant="16" id="jRg-jm-igj"/>
+                        </constraints>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="wyf-Ey-UUC"/>
+                                <include reference="xd5-Vl-4VI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="325" height="325"/>
+                    <connections>
+                        <outlet property="numberLabel" destination="xd5-Vl-4VI" id="asd-V3-HSg"/>
+                        <outlet property="titleLabel" destination="wyf-Ey-UUC" id="r30-Pu-DyK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ntQ-f9-DSF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670.5" y="-876.5"/>
+        </scene>
+    </scenes>
+</document>

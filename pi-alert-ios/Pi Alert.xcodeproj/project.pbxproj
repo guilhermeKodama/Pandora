@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF99CDFA2BE2E4C1960435B /* Pods_Pi_Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90CB8121F25BE6FDF979F1A /* Pods_Pi_Alert.framework */; };
+		C35275291C0C8BE2001B07E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275281C0C8BE2001B07E4 /* AppDelegate.swift */; };
+		C352752E1C0C8BE2001B07E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C352752C1C0C8BE2001B07E4 /* Main.storyboard */; };
+		C35275311C0C8BE2001B07E4 /* Pandora.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C352752F1C0C8BE2001B07E4 /* Pandora.xcdatamodeld */; };
+		C35275331C0C8BE2001B07E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35275321C0C8BE2001B07E4 /* Assets.xcassets */; };
+		C35275361C0C8BE2001B07E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35275341C0C8BE2001B07E4 /* LaunchScreen.storyboard */; };
+		C35275411C0C8BE3001B07E4 /* PandoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275401C0C8BE3001B07E4 /* PandoraTests.swift */; };
+		C352754C1C0C8BE3001B07E4 /* PandoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352754B1C0C8BE3001B07E4 /* PandoraUITests.swift */; };
+		C35275661C0E75CF001B07E4 /* BedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275651C0E75CF001B07E4 /* BedsViewController.swift */; };
+		C35275681C0F3262001B07E4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275671C0F3262001B07E4 /* SignInViewController.swift */; };
+		C352757C1C10964C001B07E4 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352757A1C10964C001B07E4 /* URL.swift */; };
+		C35275811C109B1A001B07E4 /* Bed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275801C109B1A001B07E4 /* Bed.swift */; };
+		C35275861C10E91D001B07E4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = C35275851C10E91D001B07E4 /* BebasNeue.otf */; };
+		C35275881C10EA04001B07E4 /* BedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275871C10EA04001B07E4 /* BedCell.swift */; };
+		C352758A1C10EF69001B07E4 /* Blogger Sans.otf in Resources */ = {isa = PBXBuildFile; fileRef = C35275891C10EF69001B07E4 /* Blogger Sans.otf */; };
+		C352758C1C10EF7F001B07E4 /* Blogger Sans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C352758B1C10EF7F001B07E4 /* Blogger Sans-Medium.otf */; };
+		C35275901C11C39F001B07E4 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352758F1C11C39F001B07E4 /* AlertViewController.swift */; };
+		C35275921C11CB31001B07E4 /* Intensivist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275911C11CB31001B07E4 /* Intensivist.swift */; };
+		C3CF5D541C16351D00976679 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF5D531C16351D00976679 /* Color.swift */; };
+		C3CF5D561C17AD7200976679 /* SimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF5D551C17AD7200976679 /* SimulatorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C352753D1C0C8BE3001B07E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352751D1C0C8BE2001B07E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35275241C0C8BE2001B07E4;
+			remoteInfo = Pandora;
+		};
+		C35275481C0C8BE3001B07E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352751D1C0C8BE2001B07E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35275241C0C8BE2001B07E4;
+			remoteInfo = Pandora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E06005D93B6C9C7E70CFA1D /* Pods-Pi Alert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pi Alert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pi Alert/Pods-Pi Alert.debug.xcconfig"; sourceTree = "<group>"; };
+		B90CB8121F25BE6FDF979F1A /* Pods_Pi_Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pi_Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35275251C0C8BE2001B07E4 /* Pi Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pi Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35275281C0C8BE2001B07E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C352752D1C0C8BE2001B07E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C35275301C0C8BE2001B07E4 /* Pandora.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pandora.xcdatamodel; sourceTree = "<group>"; };
+		C35275321C0C8BE2001B07E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35275351C0C8BE2001B07E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C35275371C0C8BE2001B07E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C352753C1C0C8BE3001B07E4 /* Pi Alert.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pi Alert.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35275401C0C8BE3001B07E4 /* PandoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandoraTests.swift; sourceTree = "<group>"; };
+		C35275421C0C8BE3001B07E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35275471C0C8BE3001B07E4 /* Pi Alert.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pi Alert.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C352754B1C0C8BE3001B07E4 /* PandoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandoraUITests.swift; sourceTree = "<group>"; };
+		C352754D1C0C8BE3001B07E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35275651C0E75CF001B07E4 /* BedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedsViewController.swift; sourceTree = "<group>"; };
+		C35275671C0F3262001B07E4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C352757A1C10964C001B07E4 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		C35275801C109B1A001B07E4 /* Bed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bed.swift; sourceTree = "<group>"; };
+		C35275851C10E91D001B07E4 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		C35275871C10EA04001B07E4 /* BedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedCell.swift; sourceTree = "<group>"; };
+		C35275891C10EF69001B07E4 /* Blogger Sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans.otf"; sourceTree = "<group>"; };
+		C352758B1C10EF7F001B07E4 /* Blogger Sans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Medium.otf"; sourceTree = "<group>"; };
+		C352758F1C11C39F001B07E4 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		C35275911C11CB31001B07E4 /* Intensivist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intensivist.swift; sourceTree = "<group>"; };
+		C3CF5D531C16351D00976679 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C3CF5D551C17AD7200976679 /* SimulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorViewController.swift; sourceTree = "<group>"; };
+		EA7A1457777C2FCA4DE035D3 /* Pods-Pi Alert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pi Alert.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pi Alert/Pods-Pi Alert.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35275221C0C8BE2001B07E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF99CDFA2BE2E4C1960435B /* Pods_Pi_Alert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35275391C0C8BE3001B07E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35275441C0C8BE3001B07E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79843693F742CBFFCCD49C3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E06005D93B6C9C7E70CFA1D /* Pods-Pi Alert.debug.xcconfig */,
+				EA7A1457777C2FCA4DE035D3 /* Pods-Pi Alert.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B016879357097C04461CECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90CB8121F25BE6FDF979F1A /* Pods_Pi_Alert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C352751C1C0C8BE2001B07E4 = {
+			isa = PBXGroup;
+			children = (
+				C35275271C0C8BE2001B07E4 /* Pandora */,
+				C352753F1C0C8BE3001B07E4 /* PandoraTests */,
+				C352754A1C0C8BE3001B07E4 /* PandoraUITests */,
+				C35275261C0C8BE2001B07E4 /* Products */,
+				7B016879357097C04461CECA /* Frameworks */,
+				79843693F742CBFFCCD49C3C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C35275261C0C8BE2001B07E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35275251C0C8BE2001B07E4 /* Pi Alert.app */,
+				C352753C1C0C8BE3001B07E4 /* Pi Alert.xctest */,
+				C35275471C0C8BE3001B07E4 /* Pi Alert.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35275271C0C8BE2001B07E4 /* Pandora */ = {
+			isa = PBXGroup;
+			children = (
+				C35275281C0C8BE2001B07E4 /* AppDelegate.swift */,
+				C352755E1C0E6A13001B07E4 /* Model */,
+				C352755F1C0E6A1B001B07E4 /* View */,
+				C35275601C0E6A20001B07E4 /* Controller */,
+				C35275841C10E90B001B07E4 /* Fonts */,
+				C35275591C0E2CCA001B07E4 /* Server */,
+				C3CF5D521C16350500976679 /* Util */,
+				C352752C1C0C8BE2001B07E4 /* Main.storyboard */,
+				C35275341C0C8BE2001B07E4 /* LaunchScreen.storyboard */,
+				C35275321C0C8BE2001B07E4 /* Assets.xcassets */,
+				C35275371C0C8BE2001B07E4 /* Info.plist */,
+				C352752F1C0C8BE2001B07E4 /* Pandora.xcdatamodeld */,
+			);
+			path = Pandora;
+			sourceTree = "<group>";
+		};
+		C352753F1C0C8BE3001B07E4 /* PandoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				C35275401C0C8BE3001B07E4 /* PandoraTests.swift */,
+				C35275421C0C8BE3001B07E4 /* Info.plist */,
+			);
+			path = PandoraTests;
+			sourceTree = "<group>";
+		};
+		C352754A1C0C8BE3001B07E4 /* PandoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C352754B1C0C8BE3001B07E4 /* PandoraUITests.swift */,
+				C352754D1C0C8BE3001B07E4 /* Info.plist */,
+			);
+			path = PandoraUITests;
+			sourceTree = "<group>";
+		};
+		C35275591C0E2CCA001B07E4 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				C352757A1C10964C001B07E4 /* URL.swift */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		C352755E1C0E6A13001B07E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C35275801C109B1A001B07E4 /* Bed.swift */,
+				C35275911C11CB31001B07E4 /* Intensivist.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C352755F1C0E6A1B001B07E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C35275871C10EA04001B07E4 /* BedCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C35275601C0E6A20001B07E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C35275651C0E75CF001B07E4 /* BedsViewController.swift */,
+				C35275671C0F3262001B07E4 /* SignInViewController.swift */,
+				C352758F1C11C39F001B07E4 /* AlertViewController.swift */,
+				C3CF5D551C17AD7200976679 /* SimulatorViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C35275841C10E90B001B07E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C35275851C10E91D001B07E4 /* BebasNeue.otf */,
+				C35275891C10EF69001B07E4 /* Blogger Sans.otf */,
+				C352758B1C10EF7F001B07E4 /* Blogger Sans-Medium.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C3CF5D521C16350500976679 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C3CF5D531C16351D00976679 /* Color.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35275241C0C8BE2001B07E4 /* Pi Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35275501C0C8BE3001B07E4 /* Build configuration list for PBXNativeTarget "Pi Alert" */;
+			buildPhases = (
+				243880E8919682392C95DFC1 /* Check Pods Manifest.lock */,
+				C35275211C0C8BE2001B07E4 /* Sources */,
+				C35275221C0C8BE2001B07E4 /* Frameworks */,
+				C35275231C0C8BE2001B07E4 /* Resources */,
+				D9D0B86A0E4BEA4B83E11FF8 /* Embed Pods Frameworks */,
+				0AF3755734F9440624A0F9A9 /* Copy Pods Resources */,
+				3ED98B8D1CD6893700F87C53 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pi Alert";
+			productName = Pandora;
+			productReference = C35275251C0C8BE2001B07E4 /* Pi Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C352753B1C0C8BE3001B07E4 /* Pi AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35275531C0C8BE3001B07E4 /* Build configuration list for PBXNativeTarget "Pi AlertTests" */;
+			buildPhases = (
+				C35275381C0C8BE3001B07E4 /* Sources */,
+				C35275391C0C8BE3001B07E4 /* Frameworks */,
+				C352753A1C0C8BE3001B07E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C352753E1C0C8BE3001B07E4 /* PBXTargetDependency */,
+			);
+			name = "Pi AlertTests";
+			productName = PandoraTests;
+			productReference = C352753C1C0C8BE3001B07E4 /* Pi Alert.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35275461C0C8BE3001B07E4 /* Pi AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35275561C0C8BE3001B07E4 /* Build configuration list for PBXNativeTarget "Pi AlertUITests" */;
+			buildPhases = (
+				C35275431C0C8BE3001B07E4 /* Sources */,
+				C35275441C0C8BE3001B07E4 /* Frameworks */,
+				C35275451C0C8BE3001B07E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35275491C0C8BE3001B07E4 /* PBXTargetDependency */,
+			);
+			name = "Pi AlertUITests";
+			productName = PandoraUITests;
+			productReference = C35275471C0C8BE3001B07E4 /* Pi Alert.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C352751D1C0C8BE2001B07E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Pandora Technology";
+				TargetAttributes = {
+					C35275241C0C8BE2001B07E4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = XX3RGL98L8;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C352753B1C0C8BE3001B07E4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C35275241C0C8BE2001B07E4;
+					};
+					C35275461C0C8BE3001B07E4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C35275241C0C8BE2001B07E4;
+					};
+				};
+			};
+			buildConfigurationList = C35275201C0C8BE2001B07E4 /* Build configuration list for PBXProject "Pi Alert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C352751C1C0C8BE2001B07E4;
+			productRefGroup = C35275261C0C8BE2001B07E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35275241C0C8BE2001B07E4 /* Pi Alert */,
+				C352753B1C0C8BE3001B07E4 /* Pi AlertTests */,
+				C35275461C0C8BE3001B07E4 /* Pi AlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35275231C0C8BE2001B07E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35275361C0C8BE2001B07E4 /* LaunchScreen.storyboard in Resources */,
+				C352758A1C10EF69001B07E4 /* Blogger Sans.otf in Resources */,
+				C35275331C0C8BE2001B07E4 /* Assets.xcassets in Resources */,
+				C35275861C10E91D001B07E4 /* BebasNeue.otf in Resources */,
+				C352752E1C0C8BE2001B07E4 /* Main.storyboard in Resources */,
+				C352758C1C10EF7F001B07E4 /* Blogger Sans-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352753A1C0C8BE3001B07E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35275451C0C8BE3001B07E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF3755734F9440624A0F9A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pi Alert/Pods-Pi Alert-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243880E8919682392C95DFC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED98B8D1CD6893700F87C53 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 08fbdc2a70b4202dad3fc792b51acd4a54c5ee5c 8785c5c5c72605e54ac4240c43065a6123c972f1603fbc0fdf91d8e4455d606d";
+		};
+		D9D0B86A0E4BEA4B83E11FF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pi Alert/Pods-Pi Alert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35275211C0C8BE2001B07E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35275661C0E75CF001B07E4 /* BedsViewController.swift in Sources */,
+				C35275311C0C8BE2001B07E4 /* Pandora.xcdatamodeld in Sources */,
+				C3CF5D541C16351D00976679 /* Color.swift in Sources */,
+				C35275291C0C8BE2001B07E4 /* AppDelegate.swift in Sources */,
+				C35275881C10EA04001B07E4 /* BedCell.swift in Sources */,
+				C352757C1C10964C001B07E4 /* URL.swift in Sources */,
+				C35275811C109B1A001B07E4 /* Bed.swift in Sources */,
+				C3CF5D561C17AD7200976679 /* SimulatorViewController.swift in Sources */,
+				C35275901C11C39F001B07E4 /* AlertViewController.swift in Sources */,
+				C35275921C11CB31001B07E4 /* Intensivist.swift in Sources */,
+				C35275681C0F3262001B07E4 /* SignInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35275381C0C8BE3001B07E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35275411C0C8BE3001B07E4 /* PandoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35275431C0C8BE3001B07E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352754C1C0C8BE3001B07E4 /* PandoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C352753E1C0C8BE3001B07E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35275241C0C8BE2001B07E4 /* Pi Alert */;
+			targetProxy = C352753D1C0C8BE3001B07E4 /* PBXContainerItemProxy */;
+		};
+		C35275491C0C8BE3001B07E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35275241C0C8BE2001B07E4 /* Pi Alert */;
+			targetProxy = C35275481C0C8BE3001B07E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C352752C1C0C8BE2001B07E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C352752D1C0C8BE2001B07E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C35275341C0C8BE2001B07E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35275351C0C8BE2001B07E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C352754E1C0C8BE3001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C352754F1C0C8BE3001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35275511C0C8BE3001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E06005D93B6C9C7E70CFA1D /* Pods-Pi Alert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Alamofire/iOS\"",
+					"\"${PODS_ROOT}/Reachability/iOS\"",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+				);
+				INFOPLIST_FILE = Pandora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.Pandora;
+				PRODUCT_NAME = "Pi Alert";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C35275521C0C8BE3001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7A1457777C2FCA4DE035D3 /* Pods-Pi Alert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Alamofire/iOS\"",
+					"\"${PODS_ROOT}/Reachability/iOS\"",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+				);
+				INFOPLIST_FILE = Pandora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.Pandora;
+				PRODUCT_NAME = "Pi Alert";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C35275541C0C8BE3001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PandoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraTests;
+				PRODUCT_NAME = "Pi Alert";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pi Alert.app/Pi Alert";
+			};
+			name = Debug;
+		};
+		C35275551C0C8BE3001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PandoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraTests;
+				PRODUCT_NAME = "Pi Alert";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pi Alert.app/Pi Alert";
+			};
+			name = Release;
+		};
+		C35275571C0C8BE3001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PandoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraUITests;
+				PRODUCT_NAME = "Pi Alert";
+				TEST_TARGET_NAME = Pandora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C35275581C0C8BE3001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PandoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraUITests;
+				PRODUCT_NAME = "Pi Alert";
+				TEST_TARGET_NAME = Pandora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35275201C0C8BE2001B07E4 /* Build configuration list for PBXProject "Pi Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C352754E1C0C8BE3001B07E4 /* Debug */,
+				C352754F1C0C8BE3001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35275501C0C8BE3001B07E4 /* Build configuration list for PBXNativeTarget "Pi Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35275511C0C8BE3001B07E4 /* Debug */,
+				C35275521C0C8BE3001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35275531C0C8BE3001B07E4 /* Build configuration list for PBXNativeTarget "Pi AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35275541C0C8BE3001B07E4 /* Debug */,
+				C35275551C0C8BE3001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35275561C0C8BE3001B07E4 /* Build configuration list for PBXNativeTarget "Pi AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35275571C0C8BE3001B07E4 /* Debug */,
+				C35275581C0C8BE3001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C352752F1C0C8BE2001B07E4 /* Pandora.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C35275301C0C8BE2001B07E4 /* Pandora.xcdatamodel */,
+			);
+			currentVersion = C35275301C0C8BE2001B07E4 /* Pandora.xcdatamodel */;
+			path = Pandora.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C352751D1C0C8BE2001B07E4 /* Project object */;
+}

@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - iCarousel (1.8.2)
+  - Reachability (3.2)
+  - Socket.IO-Client-Swift (6.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3)
+  - Crashlytics
+  - Fabric
+  - iCarousel (from `https://github.com/nicklockwood/iCarousel`)
+  - Reachability (from `https://github.com/tonymillion/Reachability`)
+  - Socket.IO-Client-Swift (~> 6.1.0)
+
+EXTERNAL SOURCES:
+  iCarousel:
+    :git: https://github.com/nicklockwood/iCarousel
+  Reachability:
+    :git: https://github.com/tonymillion/Reachability
+
+CHECKOUT OPTIONS:
+  iCarousel:
+    :commit: 7739680a08028d29250c540b91b896dac23a92cd
+    :git: https://github.com/nicklockwood/iCarousel
+  Reachability:
+    :commit: c4d225a479379f9998dbd5b55070427373d20574
+    :git: https://github.com/tonymillion/Reachability
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
+  Reachability: a439150119232b740e0b708aed6760a5965b858d
+  Socket.IO-Client-Swift: b0ebbd80f039992bad6d0f74730b5a540d979520
+
+COCOAPODS: 0.39.0

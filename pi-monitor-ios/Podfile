@@ -1,0 +1,15 @@
+xcodeproj 'Pi Monitor.xcodeproj/'
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'Pi Monitor' do
+	pod 'Socket.IO-Client-Swift', '~> 6.1.0'
+	pod 'Reachability', :git => 'https://github.com/tonymillion/Reachability'
+	pod 'iCarousel', :git => 'https://github.com/nicklockwood/iCarousel'
+	pod 'Alamofire', '~> 3.3'
+	pod 'Fabric'
+	pod 'Crashlytics'
+end

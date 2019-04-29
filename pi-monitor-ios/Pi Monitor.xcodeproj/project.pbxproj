@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E022E2B1CD5A97E0096B0D9 /* Beds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E022E2D1CD5A97E0096B0D9 /* Beds.storyboard */; };
+		3E022E311CD5A9A70096B0D9 /* Monitor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E022E331CD5A9A70096B0D9 /* Monitor.storyboard */; };
+		3E022E3F1CD5AA0E0096B0D9 /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E022E411CD5AA0E0096B0D9 /* Timeline.storyboard */; };
+		3E022E461CD5AA1F0096B0D9 /* BedItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E022E481CD5AA1F0096B0D9 /* BedItem.storyboard */; };
+		3E5E1D2F1CD5043D004A779C /* UIColor+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E1D2E1CD5043D004A779C /* UIColor+AppColor.swift */; };
+		3E8214CE1CCBE14F0003E771 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8214CD1CCBE14F0003E771 /* Enums.swift */; };
+		3E8214D51CCBF28A0003E771 /* Pods_Pi_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8214D41CCBF28A0003E771 /* Pods_Pi_Monitor.framework */; };
+		3E8BBE041CCE8B8F0025EAB8 /* ReachabilityConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8BBE031CCE8B8F0025EAB8 /* ReachabilityConnection.swift */; };
+		3E96D38C1CD12EED00A02E1F /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D38B1CD12EED00A02E1F /* TimelineViewController.swift */; };
+		3E96D38E1CD2894600A02E1F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D38D1CD2894600A02E1F /* Event.swift */; };
+		3E96D3901CD28A4F00A02E1F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D38F1CD28A4F00A02E1F /* Device.swift */; };
+		3E96D3921CD2C44F00A02E1F /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D3911CD2C44F00A02E1F /* EventCell.swift */; };
+		3E96D3941CD2C57300A02E1F /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D3931CD2C57300A02E1F /* EventViewController.swift */; };
+		C330A9F71C3EBA1C00FDBBA2 /* BedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330A9F61C3EBA1C00FDBBA2 /* BedsViewController.swift */; };
+		C330A9F91C43E42C00FDBBA2 /* BedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330A9F81C43E42C00FDBBA2 /* BedItemViewController.swift */; };
+		C330A9FB1C43F02A00FDBBA2 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330A9FA1C43F02A00FDBBA2 /* URL.swift */; };
+		C330A9FF1C45568900FDBBA2 /* Bed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330A9FE1C45568900FDBBA2 /* Bed.swift */; };
+		C35274651C035013001B07E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35274641C035013001B07E4 /* AppDelegate.swift */; };
+		C35274671C035013001B07E4 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35274661C035013001B07E4 /* MonitorViewController.swift */; };
+		C352746C1C035014001B07E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C352746A1C035014001B07E4 /* Main.storyboard */; };
+		C352746E1C035014001B07E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C352746D1C035014001B07E4 /* Assets.xcassets */; };
+		C35274711C035014001B07E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C352746F1C035014001B07E4 /* LaunchScreen.storyboard */; };
+		C352747C1C035014001B07E4 /* PandoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352747B1C035014001B07E4 /* PandoraTests.swift */; };
+		C35274871C035014001B07E4 /* PandoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35274861C035014001B07E4 /* PandoraUITests.swift */; };
+		C352749B1C03BEA4001B07E4 /* Waveform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352749A1C03BEA4001B07E4 /* Waveform.swift */; };
+		C352756D1C0F43DD001B07E4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = C352756C1C0F43DD001B07E4 /* BebasNeue.otf */; };
+		C352756F1C0F58EB001B07E4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352756E1C0F58EB001B07E4 /* Color.swift */; };
+		C35275751C10730D001B07E4 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35275741C10730D001B07E4 /* Socket.swift */; };
+		C35275831C10D30F001B07E4 /* Blogger Sans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C35275821C10D30F001B07E4 /* Blogger Sans-Medium.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35274781C035014001B07E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35274591C035013001B07E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35274601C035013001B07E4;
+			remoteInfo = Pandora;
+		};
+		C35274831C035014001B07E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35274591C035013001B07E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35274601C035013001B07E4;
+			remoteInfo = Pandora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6116C540868D9B89C6DF20 /* Pods-Pi Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pi Monitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pi Monitor/Pods-Pi Monitor.debug.xcconfig"; sourceTree = "<group>"; };
+		3E022E271CD5A91C0096B0D9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		3E022E281CD5A91C0096B0D9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3E022E301CD5A98B0096B0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Beds.storyboard; sourceTree = "<group>"; };
+		3E022E321CD5A9A70096B0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Monitor.storyboard; sourceTree = "<group>"; };
+		3E022E371CD5A9B90096B0D9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Monitor.strings"; sourceTree = "<group>"; };
+		3E022E3E1CD5A9F70096B0D9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Beds.strings"; sourceTree = "<group>"; };
+		3E022E401CD5AA0E0096B0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Timeline.storyboard; sourceTree = "<group>"; };
+		3E022E451CD5AA190096B0D9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Timeline.strings"; sourceTree = "<group>"; };
+		3E022E471CD5AA1F0096B0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BedItem.storyboard; sourceTree = "<group>"; };
+		3E022E4C1CD5AA250096B0D9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/BedItem.strings"; sourceTree = "<group>"; };
+		3E5E1D2E1CD5043D004A779C /* UIColor+AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColor.swift"; sourceTree = "<group>"; };
+		3E8214CD1CCBE14F0003E771 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3E8214D41CCBF28A0003E771 /* Pods_Pi_Monitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Pi_Monitor.framework; path = "Pods/../build/Debug-iphoneos/Pods_Pi_Monitor.framework"; sourceTree = "<group>"; };
+		3E8BBE031CCE8B8F0025EAB8 /* ReachabilityConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityConnection.swift; sourceTree = "<group>"; };
+		3E96D38B1CD12EED00A02E1F /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		3E96D38D1CD2894600A02E1F /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3E96D38F1CD28A4F00A02E1F /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		3E96D3911CD2C44F00A02E1F /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		3E96D3931CD2C57300A02E1F /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		C330A9F61C3EBA1C00FDBBA2 /* BedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BedsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C330A9F81C43E42C00FDBBA2 /* BedItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedItemViewController.swift; sourceTree = "<group>"; };
+		C330A9FA1C43F02A00FDBBA2 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = URL.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C330A9FE1C45568900FDBBA2 /* Bed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bed.swift; sourceTree = "<group>"; };
+		C35274611C035013001B07E4 /* Pi Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pi Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35274641C035013001B07E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C35274661C035013001B07E4 /* MonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MonitorViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C352746B1C035014001B07E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C352746D1C035014001B07E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35274701C035014001B07E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C35274721C035014001B07E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35274771C035014001B07E4 /* Pi Monitor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pi Monitor.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C352747B1C035014001B07E4 /* PandoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandoraTests.swift; sourceTree = "<group>"; };
+		C352747D1C035014001B07E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35274821C035014001B07E4 /* Pi Monitor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pi Monitor.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35274861C035014001B07E4 /* PandoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandoraUITests.swift; sourceTree = "<group>"; };
+		C35274881C035014001B07E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C352749A1C03BEA4001B07E4 /* Waveform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Waveform.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C352756C1C0F43DD001B07E4 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		C352756E1C0F58EB001B07E4 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C35275741C10730D001B07E4 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		C35275821C10D30F001B07E4 /* Blogger Sans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blogger Sans-Medium.otf"; sourceTree = "<group>"; };
+		D6BDFB0C1B0978AD59BA97BF /* Pods-Pi Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pi Monitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pi Monitor/Pods-Pi Monitor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C352745E1C035013001B07E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8214D51CCBF28A0003E771 /* Pods_Pi_Monitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35274741C035014001B07E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352747F1C035014001B07E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8214CF1CCBE1780003E771 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E5E1D2E1CD5043D004A779C /* UIColor+AppColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		7C0EE4A6425F9C76BFAE9A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6116C540868D9B89C6DF20 /* Pods-Pi Monitor.debug.xcconfig */,
+				D6BDFB0C1B0978AD59BA97BF /* Pods-Pi Monitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A99BD7751C04931800037FDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E8214D41CCBF28A0003E771 /* Pods_Pi_Monitor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35274581C035013001B07E4 = {
+			isa = PBXGroup;
+			children = (
+				C35274631C035013001B07E4 /* Pandora */,
+				C352747A1C035014001B07E4 /* PandoraTests */,
+				C35274851C035014001B07E4 /* PandoraUITests */,
+				C35274621C035013001B07E4 /* Products */,
+				A99BD7751C04931800037FDD /* Frameworks */,
+				7C0EE4A6425F9C76BFAE9A15 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C35274621C035013001B07E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35274611C035013001B07E4 /* Pi Monitor.app */,
+				C35274771C035014001B07E4 /* Pi Monitor.xctest */,
+				C35274821C035014001B07E4 /* Pi Monitor.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35274631C035013001B07E4 /* Pandora */ = {
+			isa = PBXGroup;
+			children = (
+				C35274641C035013001B07E4 /* AppDelegate.swift */,
+				C352749C1C04A07A001B07E4 /* Component */,
+				C35274941C035029001B07E4 /* Model */,
+				C35274951C035030001B07E4 /* View */,
+				C35274961C035035001B07E4 /* Controller */,
+				C35274971C03503C001B07E4 /* Server */,
+				C35275691C0F43B6001B07E4 /* Fonts */,
+				C35275701C0F59B6001B07E4 /* Util */,
+				3E8214CF1CCBE1780003E771 /* Extensions */,
+				C352746A1C035014001B07E4 /* Main.storyboard */,
+				3E022E2D1CD5A97E0096B0D9 /* Beds.storyboard */,
+				3E022E331CD5A9A70096B0D9 /* Monitor.storyboard */,
+				3E022E411CD5AA0E0096B0D9 /* Timeline.storyboard */,
+				3E022E481CD5AA1F0096B0D9 /* BedItem.storyboard */,
+				C352746F1C035014001B07E4 /* LaunchScreen.storyboard */,
+				C352746D1C035014001B07E4 /* Assets.xcassets */,
+				C35274721C035014001B07E4 /* Info.plist */,
+			);
+			path = Pandora;
+			sourceTree = "<group>";
+		};
+		C352747A1C035014001B07E4 /* PandoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				C352747B1C035014001B07E4 /* PandoraTests.swift */,
+				C352747D1C035014001B07E4 /* Info.plist */,
+			);
+			path = PandoraTests;
+			sourceTree = "<group>";
+		};
+		C35274851C035014001B07E4 /* PandoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35274861C035014001B07E4 /* PandoraUITests.swift */,
+				C35274881C035014001B07E4 /* Info.plist */,
+			);
+			path = PandoraUITests;
+			sourceTree = "<group>";
+		};
+		C35274941C035029001B07E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C330A9FE1C45568900FDBBA2 /* Bed.swift */,
+				3E96D38D1CD2894600A02E1F /* Event.swift */,
+				3E96D38F1CD28A4F00A02E1F /* Device.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C35274951C035030001B07E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C330A9F81C43E42C00FDBBA2 /* BedItemViewController.swift */,
+				3E96D3911CD2C44F00A02E1F /* EventCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C35274961C035035001B07E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C35274661C035013001B07E4 /* MonitorViewController.swift */,
+				C330A9F61C3EBA1C00FDBBA2 /* BedsViewController.swift */,
+				3E96D38B1CD12EED00A02E1F /* TimelineViewController.swift */,
+				3E96D3931CD2C57300A02E1F /* EventViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C35274971C03503C001B07E4 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				C330A9FA1C43F02A00FDBBA2 /* URL.swift */,
+				C35275741C10730D001B07E4 /* Socket.swift */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		C352749C1C04A07A001B07E4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C352749A1C03BEA4001B07E4 /* Waveform.swift */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		C35275691C0F43B6001B07E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C35275821C10D30F001B07E4 /* Blogger Sans-Medium.otf */,
+				C352756C1C0F43DD001B07E4 /* BebasNeue.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C35275701C0F59B6001B07E4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3E8BBE031CCE8B8F0025EAB8 /* ReachabilityConnection.swift */,
+				3E8214CD1CCBE14F0003E771 /* Enums.swift */,
+				C352756E1C0F58EB001B07E4 /* Color.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35274601C035013001B07E4 /* Pi Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C352748B1C035014001B07E4 /* Build configuration list for PBXNativeTarget "Pi Monitor" */;
+			buildPhases = (
+				F34D444EDB26F346DBCA1FEA /* Check Pods Manifest.lock */,
+				C352745D1C035013001B07E4 /* Sources */,
+				C352745E1C035013001B07E4 /* Frameworks */,
+				C352745F1C035013001B07E4 /* Resources */,
+				CD3ECEA9DF1EF6028F196C53 /* Embed Pods Frameworks */,
+				59462085491DB789B3D4AFDD /* Copy Pods Resources */,
+				3E1D37861CD570CE00B3184F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pi Monitor";
+			productName = Pandora;
+			productReference = C35274611C035013001B07E4 /* Pi Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C35274761C035014001B07E4 /* Pi MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C352748E1C035014001B07E4 /* Build configuration list for PBXNativeTarget "Pi MonitorTests" */;
+			buildPhases = (
+				C35274731C035014001B07E4 /* Sources */,
+				C35274741C035014001B07E4 /* Frameworks */,
+				C35274751C035014001B07E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35274791C035014001B07E4 /* PBXTargetDependency */,
+			);
+			name = "Pi MonitorTests";
+			productName = PandoraTests;
+			productReference = C35274771C035014001B07E4 /* Pi Monitor.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35274811C035014001B07E4 /* Pi MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35274911C035014001B07E4 /* Build configuration list for PBXNativeTarget "Pi MonitorUITests" */;
+			buildPhases = (
+				C352747E1C035014001B07E4 /* Sources */,
+				C352747F1C035014001B07E4 /* Frameworks */,
+				C35274801C035014001B07E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35274841C035014001B07E4 /* PBXTargetDependency */,
+			);
+			name = "Pi MonitorUITests";
+			productName = PandoraUITests;
+			productReference = C35274821C035014001B07E4 /* Pi Monitor.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35274591C035013001B07E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Pandora Technology";
+				TargetAttributes = {
+					C35274601C035013001B07E4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = XX3RGL98L8;
+					};
+					C35274761C035014001B07E4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C35274601C035013001B07E4;
+					};
+					C35274811C035014001B07E4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C35274601C035013001B07E4;
+					};
+				};
+			};
+			buildConfigurationList = C352745C1C035013001B07E4 /* Build configuration list for PBXProject "Pi Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = C35274581C035013001B07E4;
+			productRefGroup = C35274621C035013001B07E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35274601C035013001B07E4 /* Pi Monitor */,
+				C35274761C035014001B07E4 /* Pi MonitorTests */,
+				C35274811C035014001B07E4 /* Pi MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C352745F1C035013001B07E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35274711C035014001B07E4 /* LaunchScreen.storyboard in Resources */,
+				3E022E311CD5A9A70096B0D9 /* Monitor.storyboard in Resources */,
+				C352746E1C035014001B07E4 /* Assets.xcassets in Resources */,
+				3E022E461CD5AA1F0096B0D9 /* BedItem.storyboard in Resources */,
+				C352756D1C0F43DD001B07E4 /* BebasNeue.otf in Resources */,
+				C352746C1C035014001B07E4 /* Main.storyboard in Resources */,
+				3E022E2B1CD5A97E0096B0D9 /* Beds.storyboard in Resources */,
+				3E022E3F1CD5AA0E0096B0D9 /* Timeline.storyboard in Resources */,
+				C35275831C10D30F001B07E4 /* Blogger Sans-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35274751C035014001B07E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35274801C035014001B07E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E1D37861CD570CE00B3184F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 08fbdc2a70b4202dad3fc792b51acd4a54c5ee5c 8785c5c5c72605e54ac4240c43065a6123c972f1603fbc0fdf91d8e4455d606d";
+		};
+		59462085491DB789B3D4AFDD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pi Monitor/Pods-Pi Monitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3ECEA9DF1EF6028F196C53 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pi Monitor/Pods-Pi Monitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34D444EDB26F346DBCA1FEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C352745D1C035013001B07E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35275751C10730D001B07E4 /* Socket.swift in Sources */,
+				3E8BBE041CCE8B8F0025EAB8 /* ReachabilityConnection.swift in Sources */,
+				C330A9F91C43E42C00FDBBA2 /* BedItemViewController.swift in Sources */,
+				C330A9F71C3EBA1C00FDBBA2 /* BedsViewController.swift in Sources */,
+				3E8214CE1CCBE14F0003E771 /* Enums.swift in Sources */,
+				3E96D3941CD2C57300A02E1F /* EventViewController.swift in Sources */,
+				3E96D3901CD28A4F00A02E1F /* Device.swift in Sources */,
+				3E5E1D2F1CD5043D004A779C /* UIColor+AppColor.swift in Sources */,
+				3E96D38C1CD12EED00A02E1F /* TimelineViewController.swift in Sources */,
+				3E96D3921CD2C44F00A02E1F /* EventCell.swift in Sources */,
+				C330A9FB1C43F02A00FDBBA2 /* URL.swift in Sources */,
+				C352756F1C0F58EB001B07E4 /* Color.swift in Sources */,
+				C35274651C035013001B07E4 /* AppDelegate.swift in Sources */,
+				C35274671C035013001B07E4 /* MonitorViewController.swift in Sources */,
+				3E96D38E1CD2894600A02E1F /* Event.swift in Sources */,
+				C330A9FF1C45568900FDBBA2 /* Bed.swift in Sources */,
+				C352749B1C03BEA4001B07E4 /* Waveform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35274731C035014001B07E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352747C1C035014001B07E4 /* PandoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352747E1C035014001B07E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35274871C035014001B07E4 /* PandoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35274791C035014001B07E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35274601C035013001B07E4 /* Pi Monitor */;
+			targetProxy = C35274781C035014001B07E4 /* PBXContainerItemProxy */;
+		};
+		C35274841C035014001B07E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35274601C035013001B07E4 /* Pi Monitor */;
+			targetProxy = C35274831C035014001B07E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E022E2D1CD5A97E0096B0D9 /* Beds.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E022E301CD5A98B0096B0D9 /* Base */,
+				3E022E3E1CD5A9F70096B0D9 /* pt-BR */,
+			);
+			name = Beds.storyboard;
+			sourceTree = "<group>";
+		};
+		3E022E331CD5A9A70096B0D9 /* Monitor.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E022E321CD5A9A70096B0D9 /* Base */,
+				3E022E371CD5A9B90096B0D9 /* pt-BR */,
+			);
+			name = Monitor.storyboard;
+			sourceTree = "<group>";
+		};
+		3E022E411CD5AA0E0096B0D9 /* Timeline.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E022E401CD5AA0E0096B0D9 /* Base */,
+				3E022E451CD5AA190096B0D9 /* pt-BR */,
+			);
+			name = Timeline.storyboard;
+			sourceTree = "<group>";
+		};
+		3E022E481CD5AA1F0096B0D9 /* BedItem.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E022E471CD5AA1F0096B0D9 /* Base */,
+				3E022E4C1CD5AA250096B0D9 /* pt-BR */,
+			);
+			name = BedItem.storyboard;
+			sourceTree = "<group>";
+		};
+		C352746A1C035014001B07E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C352746B1C035014001B07E4 /* Base */,
+				3E022E271CD5A91C0096B0D9 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C352746F1C035014001B07E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35274701C035014001B07E4 /* Base */,
+				3E022E281CD5A91C0096B0D9 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C35274891C035014001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C352748A1C035014001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C352748C1C035014001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6116C540868D9B89C6DF20 /* Pods-Pi Monitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Reachability/iOS\"",
+					"\"${PODS_ROOT}/iCarousel/iOS\"",
+					"\"${PODS_ROOT}/SocketIOClientSwift/iOS\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Pandora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PiMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C352748D1C035014001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BDFB0C1B0978AD59BA97BF /* Pods-Pi Monitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Reachability/iOS\"",
+					"\"${PODS_ROOT}/iCarousel/iOS\"",
+					"\"${PODS_ROOT}/SocketIOClientSwift/iOS\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = Pandora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PiMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C352748F1C035014001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PandoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraTests;
+				PRODUCT_NAME = "Pi Monitor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pi Monitor.app/Pi Monitor";
+			};
+			name = Debug;
+		};
+		C35274901C035014001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PandoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraTests;
+				PRODUCT_NAME = "Pi Monitor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pi Monitor.app/Pi Monitor";
+			};
+			name = Release;
+		};
+		C35274921C035014001B07E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PandoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraUITests;
+				PRODUCT_NAME = "Pi Monitor";
+				TEST_TARGET_NAME = Pandora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C35274931C035014001B07E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PandoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = care.pandora.PandoraUITests;
+				PRODUCT_NAME = "Pi Monitor";
+				TEST_TARGET_NAME = Pandora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C352745C1C035013001B07E4 /* Build configuration list for PBXProject "Pi Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35274891C035014001B07E4 /* Debug */,
+				C352748A1C035014001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C352748B1C035014001B07E4 /* Build configuration list for PBXNativeTarget "Pi Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C352748C1C035014001B07E4 /* Debug */,
+				C352748D1C035014001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C352748E1C035014001B07E4 /* Build configuration list for PBXNativeTarget "Pi MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C352748F1C035014001B07E4 /* Debug */,
+				C35274901C035014001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35274911C035014001B07E4 /* Build configuration list for PBXNativeTarget "Pi MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35274921C035014001B07E4 /* Debug */,
+				C35274931C035014001B07E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35274591C035013001B07E4 /* Project object */;
+}

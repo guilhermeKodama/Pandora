@@ -1,0 +1,42 @@
+/* Class = "UIBarButtonItem"; title = "Events"; ObjectID = "5VF-UI-eFy"; */
+"5VF-UI-eFy.title" = "Eventos";
+
+/* Class = "UILabel"; text = "Pressure"; ObjectID = "8Te-3y-zJ0"; */
+"8Te-3y-zJ0.text" = "Pressão";
+
+/* Class = "UILabel"; text = "120/80"; ObjectID = "8y6-8f-Kem"; */
+"8y6-8f-Kem.text" = "120/80";
+
+/* Class = "UILabel"; text = "80"; ObjectID = "A5e-rg-Be7"; */
+"A5e-rg-Be7.text" = "80";
+
+/* Class = "UILabel"; text = "Position"; ObjectID = "AZi-Qe-l6S"; */
+"AZi-Qe-l6S.text" = "Posição";
+
+/* Class = "UILabel"; text = "98%"; ObjectID = "Ch0-rr-Ca9"; */
+"Ch0-rr-Ca9.text" = "98%";
+
+/* Class = "UILabel"; text = "Airflow"; ObjectID = "LOc-oB-sS4"; */
+"LOc-oB-sS4.text" = "Fluxo de ar";
+
+/* Class = "UILabel"; text = "EMG"; ObjectID = "Lh5-y0-Iox"; */
+"Lh5-y0-Iox.text" = "EMG";
+
+/* Class = "UILabel"; text = "0min"; ObjectID = "Mz9-Rz-nUr"; */
+"Mz9-Rz-nUr.text" = "0min";
+
+/* Class = "UILabel"; text = "ECG"; ObjectID = "eYU-tX-zF6"; */
+"eYU-tX-zF6.text" = "ECG";
+
+/* Class = "UILabel"; text = "Heart rate"; ObjectID = "hiU-tV-moV"; */
+"hiU-tV-moV.text" = "Frequência";
+
+/* Class = "UILabel"; text = "Temperature"; ObjectID = "lzL-Du-VkB"; */
+"lzL-Du-VkB.text" = "Temperatura";
+
+/* Class = "UILabel"; text = "SPO2"; ObjectID = "pza-Ug-hQn"; */
+"pza-Ug-hQn.text" = "SPO2";
+
+/* Class = "UILabel"; text = "0 ºC"; ObjectID = "tsz-hd-qdR"; */
+"tsz-hd-qdR.text" = "0 ºC";
+

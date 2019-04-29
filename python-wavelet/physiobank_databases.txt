@@ -1,0 +1,67 @@
+
+#link para acessar qualquer database a partir do codigo
+	https://physionet.org/physiobank/database/<codigo do database>
+#lista de todas os databases
+	https://physionet.org/physiobank/database/
+
+##ONLY_ECG
+
+[guilherme][aami-ec13][Class 1; core] ANSI/AAMI EC13 Test Waveforms. These 10 short recordings are specified by the current American National Standard for testing various devices that measure heart rate.
+
+[kayron][edb][Class 1; core] European ST-T Database. The creators of this database, and the European Society of Cardiology, have contributed all 90 two-hour records of this database in their entirety. The reference annotation and header files for the remaining records are also available here.
+
+[kevin][Class 1; core] Long-Term ST Database. The creators of this database contributed half of it to PhysioNet in 2003, and the remaining records in 2007. Each of the 86 records is 21 to 24 hours long, and contains 2 or 3 ECG signals, annotated beat-by-beat and with respect to ST episodes, rhythm changes, and signal quality changes; each record also includes ST level time series based on 16-second averages centered on each beat. Two papers describing the database (from 1996 and 2000) are available here.
+
+[guilherme][Class 1; core] MIT-BIH Arrhythmia Database. This collection of 48 fully annotated half-hour two-lead ECGs is available here in its entirety. The MIT-BIH Arrhythmia Database Directory is also available on-line.
+
+[kayron][Class 1; core] MIT-BIH Noise Stress Test Database. Twelve half-hour ECG recordings and 3 half-hour recordings of noise typical in ambulatory ECG recordings. The ECG recordings were created by adding calibrated amounts of noise to clean ECG recordings from the MIT-BIH Arrhythmia Database.
+
+[kevin][Class 2; core] BIDMC Congestive Heart Failure Database. Long-term ECGs (about 20 hours each) from 15 subjects with severe CHF (NYHA class 3-4).
+
+[guilherme][Class 2] ECG-ID Database. Between 2 and 20 short single-lead ECG recordings from 90 volunteers, collected to support studies of using the ECG for biometric identification. An excellent summary of the thesis for which this collection was assembled is also available.
+
+[kayron][Class 2; core] Post-Ictal Heart Rate Oscillations in Partial Epilepsy. Seven annotated single-lead ECG recordings, with times of seizures indicated. A study of these recordings is available here.
+
+[kevin][Class 2; core] QT Database. Over 100 fifteen-minute two-lead ECG recordings (many excerpted from other databases), with onset, peak, and end markers for P, QRS, T, and (where present) U waves of from 30 to 50 selected beats in each recording. A paper describing this database is available here.
+
+[guilherme][Class 2] Smart Health for Assessing the Risk of Events via ECG (SHAREE) Database. 24-hour Holter recordings of 139 hypertensive patients recruited at the Centre of Hypertension of the University Hospital of Naples Federico II, Naples, Italy.
+
+[kayron][Class 3; core] Abdominal and Direct Fetal ECG Database. Five-minute multichannel fetal ECG recordings, with cardiologist-verified annotations of all fetal heart beats, from five women in labor, from the Medical University of Silesia, Poland. Each record includes four signals from the maternal abdomen and a simultaneously recorded reference direct fetal ECG from the fetal scalp; all signals are sampled at 1 KHz with 16-bit resolution.
+
+[kevin][Class 3; core] AF Termination Challenge Database. This database has been compiled for the PhysioNet/Computers in Cardiology Challenge 2004. It consists of a learning set of 30 records and two test sets of 30 and 20 records. Each record contains a one-minute excerpt of a two-lead long-term ECG recording exhibiting either self-terminating or sustained atrial fibrillation; the challenge is to identify which records in the test set show self-terminating AF.
+
+[guilherme][Class 3; core] Creighton University Ventricular Tachyarrhythmia Database. This database includes a preliminary set of beat annotations (all beats marked as normal) with additional annotations that indicate episodes of ventricular fibrillation/flutter.
+
+[kayron][Class 3] Electrocardiographic Imaging of Myocardial Infarction. This data set, collected for the Physionet/Computers in Cardiology Challenge 2007, contains 352-channel body surface potential maps for four subjects with moderate to large, relatively compact infarcts, together with MRI images and clinical summaries.
+
+[kevin][Class 3; core] Intracardiac Atrial Fibrillation Database. A collection of high-resolution recordings from eight subjects in atrial fibrillation or flutter; each recording includes three surface ECG signals and five intracardiac signals, all simultaneously recorded.
+
+[guilherme][Class 3] Long-Term AF Database. A set of 84 long-term (24-hour) ECG recordings of subjects with paroxysmal or sustained atrial fibrillation. Each record contains two ECG signals and two sets of annotations. The original set includes unaudited markers produced by an automated QRS detector, with manual annotations of the terminations of AF episodes with durations of at least one minute. The new set contains manually reviewed reference beat type and rhythm annotations.
+
+[kayron][Class 3; core] Motion Artifact Contaminated ECG Database. Short duration ECG signals are recorded from a healthy 25-year-old male performing different physical activities to study the effect of motion artifacts on ECG signals and their sparsity.
+
+[kevin][Class 3; core] MIT-BIH Atrial Fibrillation Database (including signal files not previously released). Signal files for 23 of the 25 ten-hour records are available, along with reference rhythm annotations and unaudited beat annotations for all 25 records.
+
+[guilherme][Class 3; core] MIT-BIH ECG Compression Test Database. This database is unannotated.
+
+[kayron][Class 3; core] MIT-BIH Long-Term Database. Six lengthy two-lead ECG recordings and one three-lead ECG recording.
+
+[kevin][Class 3; core] MIT-BIH Malignant Ventricular Arrhythmia Database. This database contains rhythm and signal quality annotations only (no beat annotations).
+
+[guilherme][Class 3; core] MIT-BIH Normal Sinus Rhythm Database (including signal files not previously released). Also available: recordings excluded from the MIT-BIH Normal Sinus Rhythm Database (because of the presence of occasional ectopic beats).
+
+[kayron][Class 3; core] MIT-BIH ST Change Database. This database includes beat annotations but currently no ST change annotations. The recordings are primarily from exercise stress tests and exhibit transient ST changes.
+
+[kevin][Class 3; core] MIT-BIH Supraventricular Arrhythmia Database. Seventy-eight half-hour ECG recordings chosen to supplement the examples of SV arrhythmias in the MIT-BIH Arrhythmia Database.
+
+[guilherme][Class 3] Non-Invasive Fetal Electrocardiogram Database. Fifty-five recordings of maternal and maternal+fetal ECGs recorded over a 20-week period from a single subject, in EDF+ format.
+
+[kayron][Class 3; core] PAF Prediction Challenge Database. This database has been compiled for the PhysioNet/Computers in Cardiology Challenge 2001. It consists of 100 record sets, each including a pair of 30-minute excerpts from a long-term ECG recording. Approximately half of the subjects have PAF immediately following one of the two 30-minute excerpts; among the 50 record sets in the learning set, the PAF can be studied by referring to 5-minute ``continuation records'' that accompany each 30-minute record. In the 50 record sets belonging to the test set, the challenge is to identify which records immediately precede PAF.
+
+[kevin][Class 3; core] PTB Diagnostic ECG Database. This database of 549 high-resolution 15-lead ECGs (12 standard leads together with Frank XYZ leads) includes clinical summaries for each record. From one to five ECG records are available for each of the 294 subjects.
+
+[guilherme][Class 3] St. Petersburg Institute of Cardiological Technics 12-lead Arrhythmia Database. Seventy-five half-hour recordings extracted from 32 Holter records from patients undergoing tests for coronary artery disease, with reference annotation files containing over 175,000 beat annotations in all.
+
+[kayron][Class 3] Sudden Cardiac Death Holter Database. This is a collection of long-term ECG recordings of patients who experienced sudden cardiac death during the recordings. Half-hour excerpts of these recordings are available as the MIT-BIH Malignant Ventricular Arrhythmia Database.
+
+[kevin][Class 3] T-Wave Alternans Challenge Database. This database has been compiled for the PhysioNet/Computers in Cardiology Challenge 2008. It contains 100 2-, 3-, and 12-lead ECG records sampled at 500 Hz with 16-bit resolution over a ± 32 mV range, including subjects with risk factors for sudden cardiac death as well as healthy controls and synthetic cases with calibrated amounts of T-wave alternans.

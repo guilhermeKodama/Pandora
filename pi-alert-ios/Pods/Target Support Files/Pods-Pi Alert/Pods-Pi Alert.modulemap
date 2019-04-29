@@ -1,0 +1,6 @@
+framework module Pods_Pi_Alert {
+  umbrella header "Pods-Pi Alert-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3)
+  - Crashlytics
+  - Fabric
+  - Reachability (from `https://github.com/tonymillion/Reachability`)
+
+EXTERNAL SOURCES:
+  Reachability:
+    :git: https://github.com/tonymillion/Reachability
+
+CHECKOUT OPTIONS:
+  Reachability:
+    :commit: c4d225a479379f9998dbd5b55070427373d20574
+    :git: https://github.com/tonymillion/Reachability
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  Reachability: a439150119232b740e0b708aed6760a5965b858d
+
+COCOAPODS: 0.39.0

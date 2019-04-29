@@ -1,0 +1,28 @@
+{
+  "name": "pandora",
+  "version": "1.0.0",
+  "description": "monitoramento de sinais vitais",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "freeport": "^1.0.5",
+    "md5": "^2.0.0",
+    "killable": "^1.0.0",
+    "multer": "^1.1.0",
+    "pg": "^4.4.3",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/gkodama/pandora-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/gkodama/pandora-nodejs#readme"
+}
